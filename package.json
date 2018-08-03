@@ -1,7 +1,8 @@
 {
   "name": "babel-plugin-stateless-func-to-pure",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.0.2",
+  "main": "src/index.js",
+  "files": ["src"],
   "repository": "https://github.com/marudor/babel-plugin-stateless-func-to-pure.git",
   "author": "marudor <marudor@marudor.de>",
   "license": "MIT",
