@@ -1,0 +1,1 @@
+# babel-plugin-stateless-func-to-pure
