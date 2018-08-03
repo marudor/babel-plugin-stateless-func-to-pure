@@ -2,11 +2,22 @@
   "name": "babel-plugin-stateless-func-to-pure",
   "version": "0.0.2",
   "main": "src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": "https://github.com/marudor/babel-plugin-stateless-func-to-pure.git",
   "author": "marudor <marudor@marudor.de>",
   "license": "MIT",
   "dependencies": {
     "@babel/template": "^7.0.0-beta.55"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-flow": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-jsx": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-optional-chaining": "^7.0.0-beta.55",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-tester": "^5.4.0",
+    "jest": "^23.4.2"
   }
 }

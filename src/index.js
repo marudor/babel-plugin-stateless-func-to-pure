@@ -54,6 +54,7 @@ module.exports = function statelessToPure(babel) {
   }
 
   return {
+    name: 'Functional Stateless Components to Pure',
     visitor: {
       ArrowFunctionExpression(path) {
         if (path.node.body.type === 'JSXElement' && path.parentPath.node.id) {

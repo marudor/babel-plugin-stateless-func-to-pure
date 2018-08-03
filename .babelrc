@@ -1,0 +1,3 @@
+{
+  "plugins": ["@babel/plugin-syntax-flow", "@babel/plugin-syntax-jsx", "@babel/plugin-syntax-optional-chaining"]
+}
